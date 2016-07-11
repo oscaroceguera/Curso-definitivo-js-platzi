@@ -1,0 +1,29 @@
+{
+  "name": "Curso-definitivo-js-platzi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscaroceguera/Curso-definitivo-js-platzi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscaroceguera/Curso-definitivo-js-platzi/issues"
+  },
+  "homepage": "https://github.com/oscaroceguera/Curso-definitivo-js-platzi#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "materialize-css": "^0.97.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2"
+  }
+}
