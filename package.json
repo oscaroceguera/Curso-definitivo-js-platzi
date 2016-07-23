@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp",
+    "start": "gulp watch && node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,12 +19,20 @@
   },
   "homepage": "https://github.com/oscaroceguera/Curso-definitivo-js-platzi#readme",
   "dependencies": {
+    "empty-element": "^1.0.0",
     "express": "^4.14.0",
-    "materialize-css": "^0.97.6"
+    "materialize-css": "^0.97.6",
+    "page": "^1.7.1",
+    "pug": "^2.0.0-beta3",
+    "yo-yo": "^1.2.2"
   },
   "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^2.3.2",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
   }
 }
